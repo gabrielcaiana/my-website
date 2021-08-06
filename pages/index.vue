@@ -1,10 +1,11 @@
 <template>
   <div class="relative">
     <header class="menu">
-        <a href="#home" class="menu--link menu-1">Home</a>
-        <a href="#about" class="menu--link menu-2">About</a>
-        <a href="#works" class="menu--link menu-4">Works</a>
-        <a href="#contact" class="menu--link menu-5">Get in touch</a>
+        <a href="#" class="menu--link menu-1">Home</a>
+        <a href="#" class="menu--link menu-2">About</a>
+        <a href="#" class="menu--link menu-4">Works</a>
+        <a href="#" class="menu--link menu-4">My Blog</a>
+        <a href="mailto:gabrielcaianaguedes@gmail.com" class="menu--link menu-5">Get in touch</a>
     </header>
 
     <div class="bg-hero">
