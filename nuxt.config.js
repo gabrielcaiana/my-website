@@ -21,8 +21,6 @@ export default {
   components: true,
 
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
     'nuxt-gsap-module'
   ],
 
