@@ -14,7 +14,38 @@ export default {
     ]
   },
 
-  css: ['@/assets/scss/main.scss'],
+  css: ['@/scss/main.scss'],
+
+  pageTransition: {
+    name: 'page',
+    mode: 'out-in',
+    css: false,
+
+    beforeEnter(el) {
+      this.$gsap.set(el, {
+        opacity: 0
+      })
+    },
+
+    enter(el, done) {
+      this.$gsap.to(el, {
+        opacity: 1,
+        duration: 1,
+        ease: 'power3.out',
+        onComplete: done
+      })
+    },
+
+    leave(el, done) {
+      this.$gsap.to(el, {
+        opacity: 0,
+        duration: 1,
+        ease: 'power3.out',
+        x: 500,
+        onComplete: done
+      })
+    }
+  },
 
   plugins: [],
 

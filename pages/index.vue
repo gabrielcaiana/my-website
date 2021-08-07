@@ -1,13 +1,11 @@
 <template>
   <div class="relative">
     <header class="menu">
-      <a href="#" class="menu--link menu-1">Home</a>
-      <a href="#" class="menu--link menu-2">About</a>
-      <a href="#" class="menu--link menu-4">Works</a>
-      <a href="#" class="menu--link menu-4">My Blog</a>
-      <a href="mailto:gabrielcaianaguedes@gmail.com" class="menu--link menu-5"
-        >Get in touch</a
-      >
+      <NuxtLink to="#" class="menu--link menu-1">Home</NuxtLink>
+      <NuxtLink to="#" class="menu--link menu-2">About</NuxtLink>
+      <NuxtLink to="#" class="menu--link menu-4">Works</NuxtLink>
+      <NuxtLink to="/blog" class="menu--link menu-4">My Blog</NuxtLink>
+      <a href="mailto:gabrielcaianaguedes@gmail.com" class="menu--link menu-5">Get in touch</a>
     </header>
 
     <div class="bg-hero">
