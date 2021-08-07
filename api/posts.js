@@ -1,7 +1,7 @@
 import GhostContentAPI from "@tryghost/content-api";
 
 const api = new GhostContentAPI({
-  url: 'https://demo.ghost.io',
-  key: '22444f78447824223cefc48062',
+  url: 'https://myblog-4.ghost.io',
+  key: '0ee43d9c46de91ec1ee921b43b',
   version: "v3"
 });
